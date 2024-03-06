@@ -1,6 +1,6 @@
 # NicResume
-My Resume website
+My Resume website (Functional Placeholder)
 
-todo: fix icons linking. fix mobile hamburger menu. fix mobile margins
+todo: Deploy full featured version, fix icons linking. fix mobile hamburger menu. fix mobile margins
 low prio: add project writeup pages
   
