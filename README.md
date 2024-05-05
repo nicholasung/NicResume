@@ -1,6 +1,6 @@
 # NicResume
-My Resume website (Functional Placeholder)
+Built on React
 
-todo: Deploy full featured version, fix icons linking. fix mobile hamburger menu. fix mobile margins
-low prio: add project writeup pages
+node v18.19.0
+npm10.2.3
   
