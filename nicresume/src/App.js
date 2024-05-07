@@ -23,14 +23,68 @@ import './App.css';
 function Header(){
   return(
     <div>
+      Home       Projects Expereicence Education Contact
+    </div>
+  )
+}
+
+function Bio(){
+  return(
+    <div>
       Nicholas Ung
     </div>
   )
 }
 
+function Projects(){
+  return(
+    <div>
+      Projects
+    </div>
+  )
+}
+
+function Experience(){
+  return(
+    <div>
+      Experience
+    </div>
+  )
+}
+
+function Education(){
+  return(
+    <div>
+      Education
+    </div>
+  )
+}
+
+function Contact(){
+  return(
+    <div>
+      Email
+      <br></br>
+      Phone
+      <br></br>
+      Github
+      <br></br>
+      Linkedin
+      
+      Resume
+    </div>
+  )
+}
 function App(){
   return(
-    Header()
-  )
+    <div>
+      <Header />
+      <Bio />
+      <Projects />
+      <Experience />
+      <Education />
+      <Contact />
+    </div>
+  );
 }
 export default App;
