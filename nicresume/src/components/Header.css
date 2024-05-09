@@ -1,0 +1,38 @@
+
+.Header{
+    display: grid;
+    grid-template-areas: "logo nav";
+}
+
+.Nav { 
+    /* change this to a flex grid for better responsiveness and for burger verticality */
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    justify-items: center;
+} 
+
+.hidden {
+    display: none;
+  }
+
+.Burger {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .Header {
+      grid-template-areas: "logo burger";
+    }
+  
+    .Nav {
+      grid-template-columns: repeat(5, auto);
+      grid-template-columns: none;
+      grid-row-gap: 20px;
+    }
+  
+    .Burger {
+      display: block;
+    }
+  }
