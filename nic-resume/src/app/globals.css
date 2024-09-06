@@ -15,8 +15,12 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+main {
+  text-align: center;
+}
 
 body {
+  text-align: center;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -30,4 +34,16 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+h1 {
+  font-size: 2em; /* Example size for h1 */
+}
+
+h3 {
+  font-size: 1.5em; /* Example size for h3 */
+}
+
+h4 {
+  font-size: 1.2em; /* Example size for h4 */
 }

@@ -1,25 +1,22 @@
-import Edu from "./components/edu";
-import Exp from "./components/exp";
-import Footer from "./components/footer";
-import Header from "./components/header";
-import Navbar from "./components/navbar";
-import Projects from "./components/projects";
+import Edu from "../app/components/edu";
+import Exp from "../app/components/exp";
+import Footer from "../app/components/footer";
+import Header from "../app/components/header";
+import Navbar from "../app/components/navbar";
+import Projects from "../app/components/projects";
 
 export default function Home() {
   return (
     <main>
-      <>
-        <Header />
-        <Navbar />
-      </>
-      
-        {/* intro blurb */}
-      <>
+      <Navbar />
+      <Header />
+      <div>
+        <p>intro blurb</p>
         <Projects />
         <Exp />
         <Edu />
-        <Footer />
-      </>
+      </div>
+      <Footer />
     </main>
   );
 }

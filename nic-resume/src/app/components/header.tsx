@@ -9,10 +9,18 @@ const Header: React.FC<HeaderProps> = () => {
 
     return (
         // JSX markup for the component goes here
-        <h1>
-            {/* Add your Header content here */}
-            Header
-        </h1>
+        <div>
+            <h1>
+                Nicholas Ung
+            </h1>
+            <h3>
+                UBC B.Sc Computer Science
+            </h3>
+            <h4>
+                nicholaskeaneung@gmail.com
+            </h4>
+        </div>
+        
     );
 };
 

@@ -1,3 +1,3 @@
-create a folder for navs (nav bar and footer)
-
-each header element will be a component with each entry being its own component that is arranged dynamically by the grouping component
+dynamic navbar that hugs the top bar (links to each content header, github and linkedin, and pdf resume download)
+becomes a burger menu for smaller windows
+footer similar to placeholder
