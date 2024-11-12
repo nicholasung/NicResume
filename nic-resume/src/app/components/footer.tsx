@@ -8,11 +8,16 @@ const Footer: React.FC<FooterProps> = () => {
     // Component logic goes here
 
     return (
-        // JSX markup for the component goes here
-        <h1>
-            {/* Add your Footer content here */}
-            Footer
-        </h1>
+        <div>
+            <h4>
+                CONTACT
+            </h4>
+            <h5>
+                nicholaskeaneung@gmail.com
+            </h5>
+        </div>
+
+        
     );
 };
 
