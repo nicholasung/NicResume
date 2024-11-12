@@ -2,7 +2,6 @@ import React from 'react';
 import { Rhs, Ubc } from './edu/index';
 
 interface EduProps {
-    // Define your component props here
 }
 
 const Edu: React.FC<EduProps> = () => {
