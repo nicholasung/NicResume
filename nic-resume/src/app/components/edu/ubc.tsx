@@ -10,7 +10,7 @@ export const Ubc: React.FC<UBCProps> = () => {
     return (
         <div>
             {/* Add your component content here */}
-            UBC COMPONETNT
+            UBC
         </div>
     );
 };

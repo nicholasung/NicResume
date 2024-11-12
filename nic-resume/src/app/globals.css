@@ -47,3 +47,15 @@ h3 {
 h4 {
   font-size: 1.2em; /* Example size for h4 */
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 8px;
+  vertical-align: top;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  align-content: center; /* Center the grid within the container vertically */
+  justify-items: center; /* Center items horizontally within their cells */
+  width: 100%; /* Adjust width as needed */
+}

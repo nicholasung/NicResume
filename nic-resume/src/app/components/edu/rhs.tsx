@@ -10,7 +10,7 @@ export const Rhs: React.FC<RHSProps> = () => {
     return (
         <div>
             {/* Add your component content here */}
-            RHS COMPONETNT
+            RHS
         </div>
     );
 };
