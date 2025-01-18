@@ -1,6 +1,6 @@
 import React from 'react';
 import '../globals.css';
-import { Cn } from './exp/codeninjas';
+import { Bastion, Cn } from './exp/index';
 
 interface ExpProps {
     // Define your component props here
@@ -16,6 +16,7 @@ const Exp: React.FC<ExpProps> = () => {
             </h1>
             <div className="grid"  >
                 <Cn/>
+                <Bastion/>
                 
             </div>
         </>
