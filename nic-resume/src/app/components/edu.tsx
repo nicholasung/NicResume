@@ -9,14 +9,15 @@ const Edu: React.FC<EduProps> = () => {
     // Component logic goes here
 
     return (
-        <div className="grid" >
-                <Ubc />
-                <Rhs />
-                <Ubc />
-                <Ubc />
-                
-                
-        </div>
+        <>
+            <h1>
+                Education
+            </h1>
+            <div className="grid"  >
+                    <Ubc />
+                    <Rhs />  
+            </div>
+        </>
     );
 };
 

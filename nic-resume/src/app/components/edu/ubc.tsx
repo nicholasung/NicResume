@@ -8,9 +8,9 @@ export const Ubc: React.FC<UBCProps> = () => {
     // Component logic goes here
 
     return (
-        <div>
+        <>
             {/* Add your component content here */}
             UBC
-        </div>
+        </>
     );
 };

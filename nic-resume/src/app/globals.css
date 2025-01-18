@@ -58,4 +58,7 @@ h4 {
   align-content: center; /* Center the grid within the container vertically */
   justify-items: center; /* Center items horizontally within their cells */
   width: 100%; /* Adjust width as needed */
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
 }

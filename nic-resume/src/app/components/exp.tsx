@@ -1,4 +1,5 @@
 import React from 'react';
+import '../globals.css';
 
 interface ExpProps {
     // Define your component props here
@@ -8,11 +9,14 @@ const Exp: React.FC<ExpProps> = () => {
     // Component logic goes here
 
     return (
-        // JSX markup for the component goes here
-        <h1>
-            {/* Add your Exp content here */}
-            Exp
-        </h1>
+        <>
+            <h1>
+                Experience
+            </h1>
+            <div className="grid"  >
+  
+            </div>
+        </>
     );
 };
 
