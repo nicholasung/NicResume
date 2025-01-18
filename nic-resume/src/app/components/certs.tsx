@@ -1,24 +1,22 @@
 import React from 'react';
 import '../globals.css';
-import { Ubc } from './edu/index';
 
-interface EduProps {
+interface CertsProps {
 }
 
-const Edu: React.FC<EduProps> = () => {
+const Certs: React.FC<CertsProps> = () => {
     // Component logic goes here
 
     return (
         <>
             <h1>
-                Education
+                Certifications
             </h1>
             <div className="grid"  >
-                    <Ubc />
-                    {/* <Rhs />   */}
+
             </div>
         </>
     );
 };
 
-export default Edu;
+export default Certs;

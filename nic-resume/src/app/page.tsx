@@ -1,3 +1,4 @@
+import Certs from "../app/components/certs";
 import Edu from "../app/components/edu";
 import Exp from "../app/components/exp";
 import Footer from "../app/components/footer";
@@ -14,6 +15,7 @@ export default function Home() {
         <Projects />
         <Exp />
         <Edu />
+        <Certs />
       </div>
       <Footer />
     </main>
