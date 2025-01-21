@@ -50,7 +50,7 @@ h4 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(292px, 0fr));
   gap: 8px;
   vertical-align: top;
   justify-content: center;
@@ -58,7 +58,7 @@ h4 {
   align-content: start; /* Center the grid within the container vertically */
   justify-items: center; /* Center items horizontally within their cells */
   width: 100%; /* Adjust width as needed */
-  max-width: 720px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }

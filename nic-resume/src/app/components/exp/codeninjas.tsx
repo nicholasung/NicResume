@@ -14,7 +14,7 @@ export const Cn: React.FC<CNProps> = () => {
             </h3> 
             <b>Code Sensei</b><br/>
             <p style={{fontSize: '14px' }}>Richmond, BC | June 2024 - Present</p>
-            <hr style={{ width: '90%', border: '1px solid white' }} />
+            <hr style={{ width: '100%', border: '1px solid white' }} />
             <p style={{ maxWidth: '400px', textAlign: 'center' }}>
                 Architected and deployed local storage server with remote access emphasizing reliability and cost effectiveness. Additionally, provided live instruction for microcontrollers, AI Training, Lua and other Computer Science fundamentals.
             </p>

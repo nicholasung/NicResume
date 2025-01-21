@@ -1,6 +1,7 @@
 import React from 'react';
 import '../globals.css';
-import { Bastion, Cn } from './exp/index';
+import { Bastion, Boards, Cn, Rcs, Ubcea } from './exp/index';
+
 
 interface ExpProps {
     // Define your component props here
@@ -16,8 +17,10 @@ const Exp: React.FC<ExpProps> = () => {
             </h1>
             <div className="grid"  >
                 <Cn/>
+                <Ubcea/>
                 <Bastion/>
-                
+                <Rcs/>
+                <Boards/>
             </div>
         </>
     );
