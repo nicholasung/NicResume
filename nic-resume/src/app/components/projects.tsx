@@ -1,5 +1,6 @@
 import React from 'react';
 import '../globals.css';
+import { Jp } from './projects/index';
 
 interface ProjectsProps {
     // Define your component props here
@@ -14,7 +15,7 @@ const Projects: React.FC<ProjectsProps> = () => {
                 Projects
             </h1>
             <div className="grid"  >
-            {/* <Xyz/> */}
+            <Jp/>
             
             </div>
         </>

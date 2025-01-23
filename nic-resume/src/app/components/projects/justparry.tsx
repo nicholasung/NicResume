@@ -13,25 +13,25 @@ export const Jp: React.FC<JPProps> = () => {
             
             <a href="https://youtu.be/8tixVvmrgY8" target="_blank" rel="noopener noreferrer">
                 <Image 
-                    src="/images/discordemotebot.png" 
+                    src="/images/bird_idle_f1.png" 
                     alt="example text" 
-                    width={500} 
-                    height={500} 
+                    width={250} 
+                    height={250} 
                     style={{ 
                         marginTop: '16px', 
-                        width: '275px', 
-                        height: '275px', 
+                        width: '250px', 
+                        height: '250px', 
                         objectFit: 'cover', // Defines how the image should be resized to fit its container
-                        objectPosition: 'center' // Defines the position of the image within its container
+                        objectPosition: 'top' // Defines the position of the image within its container
                     }} 
                 />
             </a>
 
             <h3>
-                PROJECT
+                Just Parry
             </h3> 
-            <b>Skills</b><br/>
-            <p style={{fontSize: '14px'}}>June 2023 - September 2023</p>
+            <b>C++, OpenGL, Git</b><br/>
+            <p style={{fontSize: '14px'}}>September 2024 - December 2024</p>
             <p style={{ maxWidth: '400px', textAlign: 'center' }}>
                 DESCRIPTION
             </p>

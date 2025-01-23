@@ -10,17 +10,17 @@ export const Xyz: React.FC<XYZProps> = () => {
 
     return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            
+
             <a href="https://google.com" target="_blank" rel="noopener noreferrer">
                 <Image 
                     src="/images/discordemotebot.png" 
                     alt="example text" 
-                    width={500} 
-                    height={500} 
+                    width={250} 
+                    height={250} 
                     style={{ 
                         marginTop: '16px', 
-                        width: '275px', 
-                        height: '275px', 
+                        width: '250px', 
+                        height: '250px', 
                         objectFit: 'cover', // Defines how the image should be resized to fit its container
                         objectPosition: 'center' // Defines the position of the image within its container
                     }} 

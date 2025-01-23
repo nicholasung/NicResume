@@ -1,1 +1,1 @@
-// export { Xyz } from "./template";
+export { Jp } from "./justparry";
