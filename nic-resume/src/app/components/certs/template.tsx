@@ -14,7 +14,7 @@ export const Xyz: React.FC<XYZProps> = () => {
             </h3> 
             <b>Position</b><br/>
             <p style={{fontSize: '14px'}}>Vancouver, BC | June 2023 - September 2023</p>
-            <hr style={{ width: '100%', border: '1px solid white' }} />
+            <hr style={{ width: '90%', border: '1px solid white' }} />
             <p style={{ maxWidth: '400px', textAlign: 'center' }}>
                 DESCRIPTION
             </p>

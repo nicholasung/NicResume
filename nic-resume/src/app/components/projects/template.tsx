@@ -1,17 +1,17 @@
 import Image from 'next/image';
 import React from 'react';
 
-interface JPProps {
+interface XYZProps {
     // Define your component props here if any
 }
 
-export const Jp: React.FC<JPProps> = () => {
+export const Xyz: React.FC<XYZProps> = () => {
     // Component logic goes here
 
     return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             
-            <a href="https://youtu.be/8tixVvmrgY8" target="_blank" rel="noopener noreferrer">
+            <a href="https://google.com" target="_blank" rel="noopener noreferrer">
                 <Image 
                     src="/images/discordemotebot.png" 
                     alt="example text" 

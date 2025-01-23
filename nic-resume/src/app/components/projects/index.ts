@@ -1,0 +1,1 @@
+// export { Xyz } from "./template";

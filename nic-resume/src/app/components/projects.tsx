@@ -14,7 +14,8 @@ const Projects: React.FC<ProjectsProps> = () => {
                 Projects
             </h1>
             <div className="grid"  >
-  
+            {/* <Xyz/> */}
+            
             </div>
         </>
     );
