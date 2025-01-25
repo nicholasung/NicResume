@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    margin-top: 16px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.text {
+    font-size: 12px;
+    max-width: 400px;
+    text-align: center;
+    font-style: italic;
+}
+
+.title {
+    font-size: 15px;
+    max-width: 450px;
+    text-align: center;
+    font-weight: bold;
+}

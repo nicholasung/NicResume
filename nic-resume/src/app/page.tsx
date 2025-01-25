@@ -1,23 +1,19 @@
-import Certs from "../app/components/certs";
-import Edu from "../app/components/edu";
-import Exp from "../app/components/exp";
-import Footer from "../app/components/footer";
-import Header from "../app/components/header";
-import Projects from "../app/components/projects";
+import { Certs, Edu, Exp, Footer, Header, Navbar, Projects } from './components/components';
+import "./globals.css";
 
 export default function Home() {
   return (
-    <main>
-      {/* <Navbar /> */}
+    <page>
+      <Navbar />
       <Header />
-      <div>
-        <p>intro blurb</p>
+      <main>
+        <intro>Welcome to my website! I&apos;m Nic, a Computer Science major at UBC. I have been surrounded by computers all my life and have been expounding on my interest since I was a kid. In my free time I enjoy Cars, Weightlifting, and Video Games</intro>
         <Projects />
         <Exp />
         <Edu />
         <Certs />
-      </div>
+      </main>
       <Footer />
-    </main>
+    </page>
   );
 }

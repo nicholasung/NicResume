@@ -1,6 +1,6 @@
 import React from 'react';
 import '../globals.css';
-import { Jp } from './projects/index';
+import { Eb, Jp, Sb } from './projects/index';
 
 interface ProjectsProps {
     // Define your component props here
@@ -16,7 +16,8 @@ const Projects: React.FC<ProjectsProps> = () => {
             </h1>
             <div className="grid"  >
             <Jp/>
-            
+            <Eb/>
+            <Sb/>
             </div>
         </>
     );

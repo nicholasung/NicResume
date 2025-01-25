@@ -1,23 +1,23 @@
+import Image from 'next/image';
 import React from 'react';
-
+import styles from '../imghover.module.css';
 interface XYZProps {
-    // Define your component props here if any
 }
 
 export const Xyz: React.FC<XYZProps> = () => {
-    // Component logic goes here
-
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <h3>
-                COMPANY
-            </h3> 
-            <b>Position</b><br/>
-            <p style={{fontSize: '14px'}}>Vancouver, BC | June 2023 - September 2023</p>
-            <hr style={{ width: '90%', border: '1px solid white' }} />
-            <p style={{ maxWidth: '400px', textAlign: 'center' }}>
-                DESCRIPTION
-            </p>
-        </div>
+        <div className={styles.container}>
+        <a href="https://github.com/nicholasung/BoardsSnapboard" target="_blank" rel="noopener noreferrer">
+            <Image 
+                src="/images/Snapback.png" 
+                alt="example text" 
+                width={250} 
+                height={250} 
+                className={styles.image}
+            />
+        </a>
+        <h3>PROJECT NAME</h3>
+        <p className={styles.text}>Date</p>
+    </div>
     );
 };

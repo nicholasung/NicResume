@@ -17,6 +17,13 @@
 }
 main {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+page {
+  padding: 50px;
 }
 
 body {
@@ -48,6 +55,16 @@ h4 {
   font-size: 1.2em; /* Example size for h4 */
 }
 
+intro {
+  text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(292px, 0fr));
@@ -62,3 +79,5 @@ h4 {
   margin-left: auto;
   margin-right: auto;
 }
+
+
