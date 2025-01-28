@@ -1,5 +1,5 @@
 import React from 'react';
-import './component.css';
+import '../globals.css';
 import { Ubc } from './edu/index';
 
 interface EduProps {

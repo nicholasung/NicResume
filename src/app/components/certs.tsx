@@ -1,6 +1,6 @@
 import React from 'react';
+import '../globals.css';
 import { Azf } from './certs/index';
-import './component.css';
 
 interface CertsProps {
 }
