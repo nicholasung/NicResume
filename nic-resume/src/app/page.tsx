@@ -3,11 +3,11 @@ import "./globals.css";
 
 export default function Home() {
   return (
-    <page>
+    <div className='main'>
       {/* <Navbar /> */}
       <Header />
       <main>
-        <intro>Welcome to my website! I&apos;m Nic, a Computer Science major at UBC. I have been surrounded by computers all my life and have been expounding on my interest since I was a kid. In my free time I enjoy Cars, Weightlifting, and Video Games</intro>
+        <div className='intro'>Welcome to my website! I&apos;m Nic, a Computer Science major at UBC. I have been surrounded by computers all my life and have been expounding on my interest since I was a kid. In my free time I enjoy Cars, Weightlifting, and Video Games</div>
         <Projects />
         <Exp />
         <EdCerts/>
@@ -18,6 +18,6 @@ export default function Home() {
       <div>
       <Footer />
       </div>
-    </page>
+    </div>
   );
 }
