@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable the Image Optimization API
   },
-  ...(process.env.NODE_ENV === 'production' && {
+  ...(process.env.NODE_ENV === 'production' && process.env.GITHUB_ACTIONS && {
     basePath: "/NicResume", // Ensure this matches your repository name
     assetPrefix: "/NicResume/", // Ensure assets are correctly prefixed
   }),

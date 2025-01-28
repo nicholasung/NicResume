@@ -10,7 +10,7 @@ export const Jp: React.FC<JPProps> = () => {
             <div className={styles.container}>
                 <a href="https://youtu.be/8tixVvmrgY8" target="_blank" rel="noopener noreferrer">
                     <Image 
-                        src="./images/bird_idle_f1.png" 
+                        src="images/bird_idle_f1.png" 
                         alt="An image of my custom PCB" 
                         width={250} 
                         height={250} 

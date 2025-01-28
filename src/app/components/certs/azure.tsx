@@ -11,7 +11,7 @@ export const Azf: React.FC<AZFProps> = () => {
         <p className={styles.text}>January 2025</p>
         <a href="https://learn.microsoft.com/en-ca/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification" target="_blank" rel="noopener noreferrer">
             <Image 
-                src="/images/MS_Fundamentals_badge.png" 
+                src="images/MS_Fundamentals_badge.png" 
                 alt="Microsoft Certified Fundamentals Icon" 
                 width={150} 
                 height={150} 
