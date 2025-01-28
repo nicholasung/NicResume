@@ -1,5 +1,5 @@
-import { EdCerts, Exp, Footer, Header, Projects } from '../src/app/components/components';
-import "../src/app/globals.css";
+import { EdCerts, Exp, Footer, Header, Projects } from './components/components';
+import "./globals.css";
 
 export default function Home() {
   return (
