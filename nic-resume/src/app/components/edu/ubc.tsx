@@ -13,7 +13,7 @@ export const Ubc: React.FC<UBCProps> = () => {
                 University of British Columbia
             </h3> 
             <b>Bachelors of Science</b><br/>
-            Vancouver, BC | September 2020 - Present
+            Vancouver, BC <br/> September 2020 - Present
         </div>
     );
 };

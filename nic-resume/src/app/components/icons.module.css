@@ -1,0 +1,59 @@
+.icon {
+    color: #FFFFFF; 
+    transition: color 0.3s ease; 
+    width: 40px;
+    height: 40px; 
+}
+
+.icon.linkedin:hover {
+    color: #0077b5; 
+}
+
+.icon.github:hover {
+    color: #333; 
+}
+
+.icon.email:hover {
+    color: #aaaaaa; 
+}
+
+.resumeButton {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #FFFFFF; 
+    color: #000000; 
+    border: none;
+    border-radius: 3px;
+    text-decoration: none; 
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+    cursor: pointer; 
+    text-align: center; 
+    line-height: 1.5; 
+    position: relative; 
+}
+
+.resumeButton:hover {
+    background-color: #aaaaaa; 
+}
+
+.resumeButton span {
+    pointer-events: none; 
+}
+
+.icongrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 0fr));
+    gap: 8px;
+    vertical-align: top;
+    justify-content: center;
+    align-items: start; 
+    align-content: start; 
+    justify-items: center;
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+

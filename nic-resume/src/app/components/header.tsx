@@ -16,9 +16,6 @@ const Header: React.FC<HeaderProps> = () => {
             <h3>
                 UBC B.Sc Computer Science
             </h3>
-            <h4>
-                nicholaskeaneung@gmail.com
-            </h4>
         </div>
         
     );

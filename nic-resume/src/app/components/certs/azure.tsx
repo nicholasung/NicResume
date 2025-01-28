@@ -7,6 +7,8 @@ interface AZFProps {
 export const Azf: React.FC<AZFProps> = () => {
     return (
         <div className={styles.container}>
+        <p className={styles.title}>Microsoft Certified: Azure Fundamentals</p>
+        <p className={styles.text}>January 2025</p>
         <a href="https://learn.microsoft.com/en-ca/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification" target="_blank" rel="noopener noreferrer">
             <Image 
                 src="/images/MS_Fundamentals_badge.png" 
@@ -16,8 +18,6 @@ export const Azf: React.FC<AZFProps> = () => {
                 className={styles.image}
             />
         </a>
-        <p className={styles.title}>Microsoft Certified: Azure Fundamentals</p>
-        <p className={styles.text}>January 2025</p>
     </div>
     );
 };

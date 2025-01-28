@@ -1,12 +1,9 @@
 import React from 'react';
 
 interface BastionProps {
-    // Define your component props here if any
 }
 
 export const Bastion: React.FC<BastionProps> = () => {
-    // Component logic goes here
-
     return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <h3>

@@ -6,8 +6,6 @@ interface EduProps {
 }
 
 const Edu: React.FC<EduProps> = () => {
-    // Component logic goes here
-
     return (
         <>
             <h1>
@@ -15,7 +13,6 @@ const Edu: React.FC<EduProps> = () => {
             </h1>
             <div className="grid"  >
                     <Ubc />
-                    {/* <Rhs />   */}
             </div>
         </>
     );
