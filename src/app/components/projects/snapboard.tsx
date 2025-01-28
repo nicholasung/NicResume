@@ -10,7 +10,7 @@ export const Sb: React.FC<SBProps> = () => {
             <div className={styles.container}>
                 <a href="https://github.com/nicholasung/BoardsSnapboard" target="_blank" rel="noopener noreferrer">
                     <Image 
-                        src="/images/Snapback.png" 
+                        src="./images/Snapback.png" 
                         alt="An image of my custom PCB" 
                         width={250} 
                         height={250} 

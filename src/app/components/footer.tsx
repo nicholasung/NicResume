@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
                 <a href="https://github.com/nicholasung" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub} className={`${styles.icon} ${styles.github}`} />
                 </a>
-                <a href="/Nicholas_Ung_Resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.resumeButton}>
+                <a href="./Nicholas_Ung_Resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.resumeButton}>
                     <span>Resume</span>
                 </a>
             </div>

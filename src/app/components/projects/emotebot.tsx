@@ -9,7 +9,7 @@ export const Eb: React.FC<EBProps> = () => {
         <div className={styles.container}>
         <a href="https://github.com/nicholasung/DiscordEmoteBot" target="_blank" rel="noopener noreferrer">
             <Image 
-                src="/images/discordemotebot.png" 
+                src="./images/discordemotebot.png" 
                 alt="An image of my Hamster Twix" 
                 width={250} 
                 height={250} 
