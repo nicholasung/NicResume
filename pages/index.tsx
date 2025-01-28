@@ -1,4 +1,4 @@
-import { EdCerts, Exp, Footer, Header, Projects } from './components/components';
+import { EdCerts, Exp, Footer, Header, Projects } from '../src/app/components/components';
 import "./globals.css";
 
 export default function Home() {
@@ -18,6 +18,7 @@ export default function Home() {
       <div>
       <Footer />
       </div>
+      <br/>
     </div>
   );
 }

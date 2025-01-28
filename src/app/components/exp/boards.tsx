@@ -10,13 +10,13 @@ export const Boards: React.FC<BoardsProps> = () => {
     return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <h3>
-            Board&pos;s Boards
+            Board&apos;s Boards
             </h3> 
             <b>Self Employed</b><br/>
             <p style={{fontSize: '14px'}}>Richmond, BC | June 2020 - March 2022</p>
             <hr style={{ width: '100%', border: '1px solid white' }} />
             <p style={{ maxWidth: '400px', textAlign: 'center' }}>
-            Founded and operated a small business selling and installing controller modifications that included custom designed PCB&pos;s, 3D printed components and simple reverse engineering.
+            Founded and operated a small business selling and installing controller modifications that included custom designed PCBs, 3D printed components and simple reverse engineering.
             </p>
         </div>
     );

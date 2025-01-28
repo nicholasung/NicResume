@@ -16,7 +16,7 @@ export const Rcs: React.FC<RCSProps> = () => {
             <p style={{fontSize: '14px'}}>Richmond, BC | June 2022 – August 2022</p>
             <hr style={{ width: '100%', border: '1px solid white' }} />
             <p style={{ maxWidth: '400px', textAlign: 'center' }}>
-            Assisted with organizational, financial, and enrolment tasks. Additionally, aided the IT department with an inventory system for iPad&pos;s across multiple locations.
+            Assisted with organizational, financial, and enrolment tasks. Additionally, aided the IT department with an inventory system for iPad&apos;s across multiple locations.
             </p>
         </div>
     );

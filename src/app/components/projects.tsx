@@ -1,5 +1,5 @@
 import React from 'react';
-import '../globals.css';
+import './component.css';
 import { Eb, Jp, Sb } from './projects/index';
 
 interface ProjectsProps {

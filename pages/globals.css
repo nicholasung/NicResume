@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.page {
+  padding: 50px;
+}
+
+body {
+  text-align: center;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+h1 {
+  font-size: 2em; /* Example size for h1 */
+}
+
+h3 {
+  font-size: 1.4em; /* Example size for h3 */
+}
+
+h4 {
+  font-size: 1.2em; /* Example size for h4 */
+}
+
+.intro {
+  text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(292px, 0fr));
+  gap: 8px;
+  vertical-align: top;
+  justify-content: center;
+  align-items: start; /* Center items vertically */
+  align-content: start; /* Center the grid within the container vertically */
+  justify-items: center; /* Center items horizontally within their cells */
+  width: 100%; /* Adjust width as needed */
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../globals.css';
+import './component.css';
 import { Bastion, Boards, Cn, Rcs, Ubcea } from './exp/index';
 
 
