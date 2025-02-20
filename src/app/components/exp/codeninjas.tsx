@@ -12,7 +12,7 @@ export const Cn: React.FC<CNProps> = () => {
             <h3>
                 Code Ninjas
             </h3> 
-            <b>Code Sensei</b><br/>
+            <b>Code Sensei</b>
             <p style={{fontSize: '14px' }}>Richmond, BC | June 2024 - Present</p>
             <hr style={{ width: '100%', border: '1px solid white' }} />
             <p style={{ maxWidth: '400px', textAlign: 'center' }}>

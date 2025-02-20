@@ -12,7 +12,7 @@ export const Rcs: React.FC<RCSProps> = () => {
             <h3>
                 Richmond Christian School
             </h3> 
-            <b>Administrative Assistant</b><br/>
+            <b>Administrative Assistant</b>
             <p style={{fontSize: '14px'}}>Richmond, BC | June 2022 – August 2022</p>
             <hr style={{ width: '100%', border: '1px solid white' }} />
             <p style={{ maxWidth: '400px', textAlign: 'center' }}>

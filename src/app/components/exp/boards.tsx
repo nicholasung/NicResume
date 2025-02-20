@@ -12,7 +12,7 @@ export const Boards: React.FC<BoardsProps> = () => {
             <h3>
             Board&apos;s Boards
             </h3> 
-            <b>Self Employed</b><br/>
+            <b>Self Employed</b>
             <p style={{fontSize: '14px'}}>Richmond, BC | June 2020 - March 2022</p>
             <hr style={{ width: '100%', border: '1px solid white' }} />
             <p style={{ maxWidth: '400px', textAlign: 'center' }}>

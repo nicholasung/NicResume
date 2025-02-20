@@ -9,7 +9,7 @@ export const Bastion: React.FC<BastionProps> = () => {
             <h3>
                 Bastion
             </h3> 
-            <b>Fintech Business Intern</b><br/>
+            <b>Fintech Business Intern</b>
             <p style={{fontSize: '14px'}}>Makati, Philippines | June 2023 - September 2023</p>
             <hr style={{ width: '100%', border: '1px solid white' }} />
             <p style={{ maxWidth: '400px', textAlign: 'center' }}>
