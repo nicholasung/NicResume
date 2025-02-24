@@ -1,6 +1,6 @@
 import React from 'react';
 import '../globals.css';
-import { Azf } from './certs/index';
+import { Azf, Cpe } from './certs/index';
 import { Ubc } from './edu/index';
 
 interface EdCertsProps {
@@ -15,6 +15,7 @@ const EdCerts: React.FC<EdCertsProps> = () => {
             <div className="grid"  >
             <Ubc/>
             <Azf/>
+            <Cpe/>
             </div>
         </>
     );
