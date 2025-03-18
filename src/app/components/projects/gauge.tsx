@@ -7,7 +7,7 @@ interface OPGProps {
 export const Opg: React.FC<OPGProps> = () => {
     return (
         <div className={styles.container}>
-        <a href="https://github.com/nicholasung/oil_pressure_gauge" target="_blank" rel="noopener noreferrer">
+        <a href="https://youtube.com/shorts/BkHmQEv1WnE" target="_blank" rel="noopener noreferrer">
             <Image 
                 src="/images/gauge_wip.png" 
                 alt="example text" 
